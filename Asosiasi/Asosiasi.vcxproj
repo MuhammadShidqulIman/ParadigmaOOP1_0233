@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{619dd85d-4fb1-44f2-a8d8-3bbd4326d06d}</ProjectGuid>
-    <RootNamespace>Aggregation</RootNamespace>
+    <ProjectGuid>{06698e1c-2890-42ac-814a-666afb4f0da6}</ProjectGuid>
+    <RootNamespace>Asosiasi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Aggregation</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Aggregation.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Anak.h" />
-    <ClInclude Include="Ibu.h" />
+    <ClCompile Include="Asosiasi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
